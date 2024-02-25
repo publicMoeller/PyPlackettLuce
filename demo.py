@@ -7,7 +7,7 @@ Tiny demonstration file to show the following things:
 - Relative probabilites of the first ranks are close to the observations
 - Due to the nature of the model the observed rankings only account for a part of the probability mass
     - in this case about 56%
-    - this is due to the model assumptions, all possible rankings account for 100% of the probability mass (Delts2 is large while most 2-ties are not reasonable votes for humans)
+    - this is due to the model assumptions. All possible rankings account for 100% of the probability mass (Delts2 is large while most 2-ties are not reasonable votes for humans)
     - the granularity of the model ending at 'how probable are n-ties?' allows for probability mass to 'leak' into unintended regions of the PL distribution
 """
 
